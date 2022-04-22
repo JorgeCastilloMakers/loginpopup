@@ -23,7 +23,8 @@
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.404);
     background-image: url(images/marty.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom;
+    background-size: 300px;
     transition: all .3s ease-in-out;
     
 }
@@ -85,4 +86,25 @@ input::placeholder {
 
 .entrar:hover {
     opacity: 0.6;
+}
+@media screen and (max-width:800px) {
+    .container2 {
+        
+        width: 90%;
+     
+        
+    }
+    .container {
+        background: #390099;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        
+    }
+    #form {
+        display: inline-block;
+        place-items: left;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
 }
